@@ -1,112 +1,113 @@
-
-body{
-  background: rgb(220,211,196);
-  color: rgb(50,50,50);
-  font-family: Lato
-  font-size: 20px;
-}
-
-
-h1, h3{
-  font-family: Lato;
-}
-
-
-h1{
-  color: #A75852;
-  font-family: Work Sans;
-  font-size: 34px;
-}
-
-a{
-  text-decoration: none;
-  font-family: Work Sans;
-  color: #5a2f2c;
-  font-weight: bold;
-}
-
-a:hover {color: orange; font-weight: bold;}
-
-h4{
-  font-family: Lato;
-  font-size: 16px;
-}
-h5{
-  font-family: Lato;
-  font-size: 25px;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
 
 .container {
   width: 700px;
-  margin: 40px auto;
+  margin: 0 auto;
+}
+body {
+color:black;
+background-color:white;
+background-repeat:no-repeat;
+background-size: cover;
+background-image:url(images/Forest.jpg);
 }
 
-@media (max-width: 760px) {
-  .container {
-    width: 600px;
-  }
+
+.banner h1 {
+  font-size: 60px;
+  font-family: Work Sans;
 }
 
-
-@media (max-width: 500px) {
-  .container {
-    width: 400px;
-  }
+.banner h2 {
+  font-size: 45px;
+  font-family: Work Sans;
+  font-weight: bold;
+  color: darkred;
 }
 
-.card-white{
-  background: slategrey;
-  padding: 40px;
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-   
-  margin: 20px 0px;
+.btn-blue {
+  background-color: blanchedalmond;
+  padding: 15px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-basis: 300px;
+  padding: 20px;
+  display: flex
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  margin: 10px;
+  flex-basis: 250px;
+}
+
+.card img {
+  width: 240px;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size: 18px;
+  color:  #FFFFFF;
+}
+h2{
+  color: #339933;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h3{
+  font-family: 'Lato';
+  text-align: center;
+}
+h1, h2 {
+  font-family: 'Work Sans';
+  font-weight: bold;
+  text-align: center;
+}
+h4{
+  color: #33CC66;
+  font-family: work sans;
+  font-size: 70px;
   text-align: center;
 }
 
 
-.img-circle{
-  border-radius: 50%;
+a {
+  text-decoration: none;
 }
 
-.btn-blue{
-  background-color: #17375E; 
-  color: white;
-  padding: 25px 31px; 
-  border-radius: 4px;
-  font-family: Work Sans;
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
 }
 
-.btn-blue:hover {
-  background-color: black;
-  color: white;
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
 }
 
-.list-inline {
-  list-style: none;
-  padding left: 0px;
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
-
-.list-inline li{
-  display: inline;
-  padding: 10px;
-}
-
-.list-inline i{
-  font-size: 30px;
-  margin-right: : 30px;
-  color: rgb(230, 230, 230);
-  
-}
-
-.list-inline i:hover{
-  color: black;
-}
-
-
-
-#introduction p{
-  margin-bottom: 40px;
-}
-
-
